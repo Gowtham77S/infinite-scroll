@@ -2,6 +2,12 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
+## GitHub Pages deployment
+
+In the repository's **Settings → Pages**, select **GitHub Actions** as the source.
+Push to `main` to build and deploy the app automatically. The deployment workflow
+can also be run manually from the Actions tab.
+
 Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
