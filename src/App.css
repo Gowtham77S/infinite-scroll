@@ -1,0 +1,15 @@
+.heading {
+  text-align: center;
+}
+.todo-card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+  p{
+    margin:0;
+    padding:10px;
+    background-color: burlywood;
+  }
+
+}
